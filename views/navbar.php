@@ -41,14 +41,7 @@
 
             <ul class="navbar-nav ml-auto">
               <li>
-                <a class="nav-link" href="contact.php">Contacto</a>
-              </li>
-
-              <li>
-                <a class="nav-link active" href="login.php">Login</a>
-              </li>
-              <li>
-                <a class="nav-link" href="singup.php">Singup</a>
+                <a class="nav-link" href="login.php">Login</a>
               </li>
             </ul>
           </div>
