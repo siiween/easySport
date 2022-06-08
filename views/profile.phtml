@@ -49,18 +49,39 @@
             style="background-color: #000; font-family: 'Quantico', sans-serif"
           >
             <li>
-              <a class="nav-link active" href="#">Editar perfil</a>
+              <a class="nav-link active" >Editar perfil</a>
             </li>
-            <li>
-              <a class="nav-link" href="#">Pagos</a>
-            </li>
-            <li>
-              <a class="nav-link">Historial</a>
-            </li>
+
             <li>
               <a class="nav-link">Logout</a>
             </li>
           </ul>
+        </div>
+
+        <div class="col-md-5 p-5">
+          <form action="" method="post">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" name="email" >
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Nombre</label>
+              <input type="text" class="form-control" name="nombre" >
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Apellido</label>
+              <input type="text" class="form-control" name="apellido" >
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Teléfono</label>
+              <input type="number" class="form-control" name="telefono" >
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Dirección</label>
+              <input type="text" class="form-control" name="direccion" >
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+          </form>
         </div>
       </div>
     </div>

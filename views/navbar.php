@@ -26,30 +26,30 @@
 
             <!-- login required -->
               <li>
-                <a class="nav-link" href="bookings.php">Reservas</a>
+                <a class="nav-link" href="/easySport/controllers/bookings_controller.php">Reservas</a>
               </li>
 
               <li>
-                <a class="nav-link" href="suscriptions.php">Suscripciones</a>
+                <a class="nav-link" href="/easySport/controllers/suscriptions_controller.php">Suscripciones</a>
               </li>
 
 
 
               <li>
-                <a class="nav-link" href="facilities.php">Instalaciones</a>
+                <a class="nav-link" href="/easySport/controllers/facilities_controller.php">Instalaciones</a>
               </li>
 
               <li>
-                <a class="nav-link" href="classes.php">Clases</a>
+                <a class="nav-link" href="/easySport/controllers/classes_controller.php">Clases</a>
               </li>
             </ul>
 
             <ul class="navbar-nav ml-auto">
               <li>
-                <a class="nav-link" href="login.php">Login</a>
+                <a class="nav-link" href="/easySport/controllers/login_controller.php">Login</a>
               </li>
               <li>
-                <a class="nav-link" href="profile.php">Profile</a>
+                <a class="nav-link" href="/easySport/controllers/profile_controller.php">Profile</a>
               </li>
             </ul>
           </div>
