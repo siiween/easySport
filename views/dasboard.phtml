@@ -31,7 +31,7 @@
     function get_schema_size(){
         $mysqli = new mysqli("bbdd.dlsi.ua.es:3306","gi_easysport",".easysport.","information_schema");
 
-        $query = "SELECT SUM(data_length + index_length) / 1024 / 1024 AS 'Tam' FROM tables WHERE table_schema = 'gi_easysport' group by table_schema;";
+        $query = "SELECT SUM(data_length + index_length) / 1024 / 1024 AS 'Tam' FROM tables WHERE table_schema = 'gi_easysport2' group by table_schema;";
 
         $result = $mysqli -> query($query);
         $result = $result->fetch_assoc();
@@ -50,7 +50,7 @@
     
     function get_tables_space(){
         $mysqli = new mysqli("bbdd.dlsi.ua.es:3306","gi_easysport",".easysport.","information_schema");
-        $query = "SELECT table_name,(data_length + index_length)/1024/1024 AS 'Tam' FROM tables WHERE table_schema = 'gi_easysport'";
+        $query = "SELECT table_name,(data_length + index_length)/1024/1024 AS 'Tam' FROM tables WHERE table_schema = 'gi_easysport2'";
 
         $result = $mysqli -> query($query);
         $data = array();

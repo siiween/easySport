@@ -5,9 +5,9 @@ require_once("../db/db.php");
 require_once("../models/facilities_model.php");
 
 
-//$fac = new facilities_model();
+$fac = new facilities_model();
 
-// $datos=$fac->get_facilities();
+$datos=$fac->get_facilities();
 
 
 
